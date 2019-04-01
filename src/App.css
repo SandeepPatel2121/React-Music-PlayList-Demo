@@ -1,0 +1,50 @@
+body {
+    background-color:white
+}
+
+.App {
+  
+    padding: 10%;
+}
+
+.App-title {
+    font-size: 35px;
+    font-weight: 1000;
+    color: blue;
+}
+
+.sameRow {
+    display: inline;
+}
+
+.batch {
+    align-items: center;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profileImg {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.playListImg {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.profile-detail {
+    padding: 10px;
+    flex-direction: column;
+}
+
+.playList {
+    flex-direction: row;
+}
